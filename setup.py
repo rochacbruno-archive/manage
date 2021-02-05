@@ -16,7 +16,7 @@ def long_description():
 
 setup(
     name='manage',
-    version='0.1.14',
+    version='0.1.15-dev0',
     description="Command Line Manager + Interactive Shell for Python Projects",
     long_description=long_description(),
     long_description_content_type='text/x-rst',
