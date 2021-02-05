@@ -19,6 +19,7 @@ setup(
     version='0.1.14',
     description="Command Line Manager + Interactive Shell for Python Projects",
     long_description=long_description(),
+    long_description_content_type='text/x-rst',
     author="Bruno Rocha",
     author_email='rochacbruno@gmail.com',
     url='https://github.com/pthon-manage/manage',
