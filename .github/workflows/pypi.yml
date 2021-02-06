@@ -1,10 +1,13 @@
 name: pypi
 
-on: workflow_dispatch
+on:
+  push
+  workflow_dispatch
 
 jobs:
   upload:
     name: Upload to PyPI
+    if: (contains(github.ref, 'refs/tags/v') && contains(github.ref, '-dev')) || (github.action == 'workflow_dispatch')
     runs-on: ubuntu-latest
     steps:
 
