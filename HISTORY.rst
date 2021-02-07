@@ -1,6 +1,11 @@
 History
 =======
 
+0.1.15 (2021-02-07)
+-------------------
+* Fix yaml message.
+* Fix description in pypi.
+
 0.1.12 (2016-08-15)
 -------------------
 * Readline is optional because of MacOS compat
